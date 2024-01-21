@@ -1,0 +1,303 @@
+<resources>
+    <string name="app_name">TaxiMe Driver</string>
+
+    <string name="internal_storage">Internal storage</string>
+
+    <string name="web_link">www.taxime.lk</string>
+
+    <!--strings for error massage-->
+    <string name="no_data_available">No Data Available</string>
+    <string name="something_went_wrong_please_try_again_later">Something went wrong Please try again later</string>
+    <string name="cancel_trip">Cancel Trip</string>
+    <string name="trip_cancel_by_passenger">Trip cancel by passenger</string>
+    <string name="end__trip">End trip?</string>
+    <string name="confirm">Confirm</string>
+    <!--<string name="cancel">Cancel</string>-->
+    <string name="start__trip">Start trip?</string>
+    <string name="invalid_mobile_number">Invalid Mobile Number</string>
+    <string name="enter_your_10_digit_mobile_number">Enter your 10 digit mobile number</string>
+    <string name="error_code">error code</string>
+
+    <!--strings for login and register UI-->
+    <string name="snap_app">TaxiMe Partner</string>
+    <string name="lets_go_to_hire_pool">Let\'s go to hire pool</string>
+    <string name="next_generation_travels">Next Generation\'s Travel</string>
+    <string name="login">Login</string>
+    <string name="register_now">Register Now</string>
+    <string name="registration">Registration</string>
+    <string name="terms_and_conditions"><a href="https://drive.google.com/file/d/1ZOddz2kDMTTMvkt3wo042p1iref5ROs6/view">Terms and Conditions</a></string>
+
+    <!--strings for mobile number UI-->
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="next">Next</string>
+    <string name="request_fail">Request Fail Try Again</string>
+    <string name="mobile_number_not_found">Mobile Number not Found</string>
+
+    <!--strings for mobile number verification UI -->
+    <string name="hi">Hello</string>
+    <string name="enter_otp_code">Enter the received verification code</string>
+    <string name="send_it_again">Resend Code</string>
+
+    <!--strings for home activity-->
+    <string name="home">Home</string>
+    <string name="my_hires">My Hires</string>
+    <string name="wallet">Wallet</string>
+    <string name="notification">Notification</string>
+    <string name="profile">Profile</string>
+    <string name="connecting">Connecting</string>
+    <string name="connected">Connected</string>
+    <string name="reconnecting">Reconnecting</string>
+
+    <!--strings for register form-->
+    <string name="name">Name</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="enter_email">Enter email</string>
+    <!--<string name="enter_mobile_number">Enter mobile number</string>-->
+    <string name="address">Address</string>
+    <string name="driving_licence_front">Driving licence front image</string>
+    <string name="driving_licence_back">Driving licence back image</string>
+    <string name="nic_front">NIC front image</string>
+    <string name="nic_back">NIC back image</string>
+    <!--<string name="next">Next</string>-->
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="postal_code">postal code</string>
+    <string name="country">Country</string>
+    <string name="nic_number">NIC Number</string>
+    <string name="life_insurance_no">Life Insurance No</string>
+    <string name="life_insurance_expiry_date">Life Insurance Expiry Date</string>
+    <string name="optional">optional</string>
+    <string name="life_insurance_data">Life Insurance Data</string>
+    <string name="select_all_images">Please select all images</string>
+    <string name="alredy_registered">Your Mobile Number or Email already Registered</string>
+    <string name="try_again">Request fail.. Please try again</string>
+    <string name="something_went_wrong">Something went wrong.. Please rty again</string>
+    <string name="image_size_too_large">Image Size too large</string>
+    <string name="companyCode_not_found">Company Code Not Found</string>
+    <string name="image_requirement_info">Kindly take clear and visible images of the following documents.</string>
+
+    <!--strings for home fragment-->
+    <string name="driver">Driver</string>
+    <string name="dispather">Dispatcher</string>
+    <string name="road_pickup">Road Pickup</string>
+
+    <!--strings for dispatcher-->
+    <string name="switch_to_driver">Switch to Driver</string>
+    <string name="dispatch_hire">Dispatch a hire</string>
+    <string name="you_can_dispatch_hire">Dispatch a Hire to TaxiMe and earn highest commision</string>
+    <string name="dispatch_history_desc">Dispatch a Hire to TaxiMe and earn highest commision</string>
+    <string name="dispatch_history">Dispatch History</string>
+    <string name="dispatch">Dispatch Hire</string>
+    <string name="history">History</string>
+    <string name="dispatch_done">Dispatches Completed</string>
+    <string name="your_earnings">Dispatch Earnings</string>
+    <string name="trips">Trips</string>
+
+    <!--strings for dispatcher form-->
+    <string name="back">Back</string>
+    <string name="customer_info">Customer information</string>
+    <string name="customer_name">Customer name</string>
+    <string name="customer_telephone_number">Customer telephone number</string>
+    <string name="pickup_date">Pickup date</string>
+    <string name="pickup_time">Pickup time</string>
+    <string name="set_trip_path">Set trip path</string>
+    <string name="pickup_location">Pickup location</string>
+    <string name="drop_location">Drop location</string>
+    <string name="select_vehicle_type">Pick your\nCategory</string>
+    <string name="set_hire_cost">Set hire cost</string>
+    <string name="total_fare">Total Fare</string>
+    <string name="additional_notes">Additional notes</string>
+    <string name="order">Order</string>
+    <string name="estimate_cost">Estimate Cost</string>
+    <string name="almost_done">Almost Done</string>
+    <string name="no_online_drivers">No Online Drivers</string>
+    <string name="no_online_drivers_in_pick">No Online Drivers in Pickup Area</string>
+    <string name="unexpected_error">Unexpected Error Try Again Later</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="timeAndLocation">Time and Location</string>
+    <string name="hire_cost">Hire cost</string>
+    <string name="bid_value">Bid value</string>
+
+    <!--strings for driver-->
+    <string name="switch_to_dispatcher">Switch to Dispatcher</string>
+    <string name="bookings">Bookings</string>
+    <string name="pre_bookings">Pre Bookings</string>
+    <string name="long_trips">Long Trips</string>
+    <string name="accept">Accept</string>
+    <string name="passengers">Passengers</string>
+    <string name="km">km</string>
+    <string name="rs">Rs </string>
+    <string name="packages">Packages</string>
+
+    <!--strings for profile-->
+    <string name="vehicle_info">Vehicle Info</string>
+    <!--<string name="date_of_birth">Date Of Birth</string>-->
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile number</string>
+    <!--<string name="address">Address</string>-->
+
+    <!--strings for vehicle list popup-->
+    <string name="vehicle_list">Vehicle List</string>
+    <string name="add_vehicle">Add Vehicle</string>
+    <string name="ok">OK</string>
+    <!--<string name="cancel">Cancel</string>-->
+
+    <!--strings for trip UI-->
+    <string name="arrived">Arrived</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="navigate">Navigate</string>
+    <string name="trip_info">Trip Info</string>
+    <string name="end">End</string>
+    <string name="hire_distance">Hire distance</string>
+    <string name="distance_to_passenger">Distance to passenger</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="next">Next</string>-->
+
+    <!--strings for passenger info UI-->
+    <string name="passenger_info">PASSENGER INFO</string>
+    <!--<string name="first_name">First Name</string>-->
+    <!--<string name="last_name">Last Name</string>-->
+    <!--<string name="email">Email</string>-->
+    <string name="mobile">Mobile</string>
+    <string name="continu">Continue</string>
+    <string name="passenger_name">Passenger Name (optional)</string>
+    <string name="email_optional">Email</string>
+
+    <!--strings for price calculater-->
+    <string name="total_cost">TOTAL COST</string>
+    <string name="waiting_cost">Waiting Cost</string>
+    <string name="wait_time">Wait Time</string>
+    <string name="distance">Distance</string>
+    <string name="start_trip">Start Trip</string>
+    <string name="end_trip">End Trip</string>
+    <string name="back_to_home">Back to Home</string>
+
+    <!--strings for add vehicle-->
+    <string name="add_your_vehicle">Add your vehicle</string>
+    <string name="brand">Brand</string>
+    <string name="vehicle_model">Vehicle Model</string>
+    <string name="vehicle_color">Vehicle Color</string>
+    <string name="weight_limit">Weight Limit</string>
+    <string name="passenger_capacity">Passenger Capacity</string>
+    <string name="vehicle_register_number">Vehicle Register Number</string>
+    <string name="upload_document">Upload Document</string>
+    <string name="vehicle_book">Vehicle Book Image</string>
+    <string name="vehicle_insurance">Vehicle Insurance \nImage</string>
+    <string name="vehicle_front">Vehicle front Image</string>
+    <string name="vehicle_back">Vehicle back Image</string>
+    <string name="vehicle_side_view">vehicle Side Image</string>
+    <string name="vehicle_registration_certificate">Vehicle registration certificate</string>
+    <string name="vehicle_revenue_licence">Vehicle revenue licence</string>
+    <string name="vehicle_insurance_image">Vehicle insurance image</string>
+    <string name="submit">Submit</string>
+
+    <!--strings for driver not approved UI-->
+    <string name="driver_not_approved">Driver Not Approved</string>
+    <string name="your_account_not_approved_yet">Your account not approved yet... \nContact TaxiMe team</string>
+
+    <!--strings for notification channel-->
+    <string name="channel_name">Trip Channel</string>
+    <string name="channel_description">Trip Notification</string>
+
+    <!--strings for tri billing activity-->
+    <!--<string name="total_fare">Total Fare</string>-->
+    <!--<string name="rs">Rs</string>-->
+    <string name="trip_date">Trip Date</string>
+    <string name="discount">Discount</string>
+    <string name="no_discount">No Discount</string>
+    <string name="summery">Summery</string>
+    <string name="fare">Fare</string>
+    <!--<string name="distance">Distance</string>-->
+    <string name="trip_time">Trip Time</string>
+    <!--<string name="wait_time">Wait Time</string>-->
+    <string name="wait_cost">Wait Cost</string>
+    <string name="collect">Collect(cancellation fee)</string>
+    <string name="payment_method">Payment method : </string>
+    <string name="payment_collected">Payment Collected</string>
+    <!--<string name="km">Km</string>-->
+    <string name="min">Min</string>
+
+    <!--strings for my hires-->
+    <string name="total">Total</string>
+    <string name="admin_commission">Admin Commission</string>
+    <string name="your_earning">your Earning</string>
+    <string name="cash">Fare</string>
+
+    <!--strings for dispatch history-->
+    <string name="on_going">ON GOING</string>
+    <string name="completed">COMPLETED</string>
+    <string name="cancelled">CANCELLED</string>
+    <string name="pending">PENDING</string>
+
+    <!--strings for wallet-->
+    <string name="cash_earning">Cash Earnings </string>
+    <string name="card_earning">Card Earnings </string>
+    <string name="wallet_points">Wallet points </string>
+    <string name="other_transaction">Other Transaction</string>
+    <string name="recharge">Recharge</string>
+    <!--<string name="wallet">Wallet</string>-->
+
+    <string name="enter_your_mobile_hint">Enter Your Mobile here</string>
+    <string name="let_start_earniung">Let\'s Start Earning</string>
+    <string name="taxime_partner">Taxime Partner</string>
+
+    <string name="dispatch_history_button">Dispatch History</string>
+    <string name="own_dispatch">Own Dispatch</string>
+    <string name="own_network">Own Network</string>
+    <string name="province">Province</string>
+    <string name="district">District / State</string>
+    <string name="city">City / DSD</string>
+    <string name="accNumber">DFCC Account Number</string>
+    <string name="hotline_number">769 769 769</string>
+    <string name="taxime_hotline">TaxiMe Hotline</string>
+    <string name="need_help">Need help?</string>
+    <string name="taxime_team_will_approve_your_account_soon">TaxiMe Team will approve your account soon.</string>
+    <string name="online_registration_complete">Online Registration Complete</string>
+    <string name="hello">Hello</string>
+
+    <!--cancel trip-->
+    <string name="cancelation_fee">Cancellation fee will be applied if cancelled after 2 minutes.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="type_here">Type here</string>
+    <string name="cannot_find_passenger">Cannot find the passenger.</string>
+    <string name="passenger_too_late">Passenger is late or too far.</string>
+    <string name="other">other</string>
+    <string name="reasons_to_cancel">Reason to cancel:</string>
+    <string name="are_you_sure_to_cancel">Are you sure to cancel?</string>
+    <string name="are_you_sure_finiush">We’re are almost finished finding your ride.</string>
+    <string name="cancel_trip_question">Cancel Trip?</string>
+    <string name="dispatcher">Dispatcher</string>
+    <!--Dispatch -->
+    <string name="pick_a_location">Pick a Location</string>
+    <string name="search">Search</string>
+    <string name="use_this_location">USE THIS LOCATION</string>
+    <string name="price_per_km">Rs.%d/km</string>
+    <string name="total_cost_rs">Rs.%.2f</string>
+    <string name="dispatcher_id">Dispatcher ID: %s</string>
+    <string name="dispatcher_foundction_not_enabled">Dispatcher Not Enabled for your account!.  Please contact TaxiMe team for more information about approving dispatcher</string>
+    <!--Profile edit-->
+    <string name="user_name">User Name</string>
+    <string name="email_address_optional">Email address (Optional)</string>
+    <string name="enter_your_mobile_number">Enter your mobile number</string>
+    <string name="save">Save</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="code">What\'s your code?</string>
+    <string name="check_your_internet_connection_and_try_again">Check your internet connection and try again</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="nic">NIC #</string>
+    <string name="gender">Gender:</string>
+    <string name="full_name">%s %s</string>
+    <string name="select_date">select date</string>
+    <string name="date_hint">2018-05-18</string>
+    <string name="tvTripDistance">Trip distance</string>
+    <string name="numberOf_km">%.1fkm</string>
+
+</resources>

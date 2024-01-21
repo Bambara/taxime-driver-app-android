@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3e3e3e</color>
+    <color name="colorPrimaryDark">#3e3e3e</color>
+    <color name="colorAccent">#63676d</color>
+
+    <color name="appGreen">#5BAA46</color>
+    <color name="appBlue">#1A55D8</color>
+    <color name="appBlueDarker">#072CA3</color>
+    <color name="appOrangeDarker">#FF0000</color>
+    <color name="appLightBlue">#63D8F7</color>
+    <color name="appOrange">#F79420</color>
+
+
+    <color name="ashOne">#3e3e3e</color>
+    <color name="transparentAsh">#ef3e3e3e</color>
+    <color name="ashTwo">#b2b2b2</color>
+    <color name="ashThree">#63676d</color>
+    <color name="greenOne">#F6921E</color>
+    <color name="greenTwo">#417b00</color>
+    <color name="greenThree">#5BA900</color>
+    <color name="greenFour">#7ADF07</color>
+    <color name="greenFive">#5AA900</color>
+    <color name="greenSix">#5BA946</color>
+
+    <color name="greenTransparent">#aa3BC500</color>
+    <color name="yellowTransparent">#aaC5FF00</color>
+    <color name="redTransparent">#aaD45B15</color>
+    <color name="redOne">#d4152c</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="errorRed">#ff0000</color>
+    <color name="blueOne">#0000ff</color>
+    <color name="blueTwo">#00aaff</color>
+    <color name="transparent">#00000000</color>
+    <color name="semiTransparent">#cc000000</color>
+    <color name="orange">#AB5B05</color>
+    <color name="darkWhiteOne">#F8F8F8</color>
+    <color name="darkWhiteTwo">#e8e8e8</color>
+    <color name="yellowOne">#FFF200</color>
+    <color name="monteCarlo">#8DD2CA</color>
+
+
+</resources>

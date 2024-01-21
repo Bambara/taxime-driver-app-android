@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout_otp_verification_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".login.OTPVerificationActivity">
+
+    <include
+        layout="@layout/top_tool_bar_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/hi"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/profileImage"
+        app:layout_constraintTop_toBottomOf="@+id/profileImage" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_user_avatar"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/enter_otp_code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtName" />
+
+    <EditText
+        android:id="@+id/pinFour"
+        android:layout_width="48dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/ash_view_background_with_white_redious_boder"
+        android:ems="10"
+        android:inputType="phone"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/pinThree"
+        app:layout_constraintTop_toTopOf="@+id/pinThree" />
+
+    <EditText
+        android:id="@+id/pinThree"
+        android:layout_width="48dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/ash_view_background_with_white_redious_boder"
+        android:ems="10"
+        android:inputType="phone"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toStartOf="@+id/pinFour"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/pinTwo"
+        app:layout_constraintTop_toTopOf="@+id/pinTwo" />
+
+    <EditText
+        android:id="@+id/pinTwo"
+        android:layout_width="48dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/ash_view_background_with_white_redious_boder"
+        android:ems="10"
+        android:inputType="phone"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toStartOf="@+id/pinThree"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/pinOne"
+        app:layout_constraintTop_toTopOf="@+id/pinOne" />
+
+    <EditText
+        android:id="@+id/pinOne"
+        android:layout_width="48dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ash_view_background_with_white_redious_boder"
+        android:ems="10"
+        android:inputType="phone"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toStartOf="@+id/pinTwo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/resend_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/send_it_again"
+        android:textColor="@color/appBlue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pinTwo" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/shape_blue_button"
+        android:text="@string/next"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <TextView
+        android:id="@+id/text_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/errorRed"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="@+id/nextButton"
+        app:layout_constraintStart_toStartOf="@+id/nextButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>
